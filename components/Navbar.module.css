@@ -1,0 +1,32 @@
+
+.container {
+  display: flex;
+  position: fixed;
+  background-color: white;
+  top: 0;
+  width: 100%;
+  align-items: center;
+  margin-top: 0px;
+  gap: 50px;
+  z-index: 1;
+}
+
+.navbarActions {
+  display: flex;
+  margin-top: 5px;
+  gap: 50px;
+  scroll-behavior: smooth;
+}
+
+.navbarActions button {
+    background-color: transparent;
+    color: black;
+    font-size: 22px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.navbarActions button:hover {
+  text-decoration: underline;
+}

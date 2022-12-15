@@ -1,0 +1,24 @@
+.container {
+    padding: 18px;
+    background: linear-gradient(to right, rgb(250,214,116), rgb(180,237,128));
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.container h4 {
+    font-style: italic;
+    align-items: center;
+}
+
+.socmed {
+    display: flex;
+    margin-top: 20px;
+}
+
+.icons {
+    display: flex;
+    height: 45px;
+    gap: 4px;
+    margin-top: 10px;
+}
